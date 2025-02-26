@@ -1,5 +1,5 @@
 // 1. Using the console
-
+/*
 
 console.log(100);
 
@@ -99,3 +99,47 @@ const d = 10, e = 20, f = 30;
 
 console.log(d);
 console.log(e);
+
+*/
+
+//3. Data Types
+// String
+const firstName = 'Sarah';
+
+// Number
+const age = 30;
+const temp = 98.9;
+
+// Boolean
+const hasKids = true
+
+// Null
+const aptNumber = null;
+
+// Undefinded
+// let score;
+const score  = undefined;
+
+// Symbol
+const id = Symbol('id');
+
+
+// BigInt
+const n = 592745026404057262n;
+
+// Reference types
+
+const numbers = [1,2,3,4];
+
+const person ={
+    name: "Chris",
+};
+
+function sayHello(){
+    console.log("Hello");
+}
+
+
+const output = sayHello;
+
+console.log(output, typeof output);
