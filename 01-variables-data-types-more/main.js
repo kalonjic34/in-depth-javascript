@@ -6,3 +6,4 @@ import './operators.js';
 import './typeCoercion.js';
 import './strings.js';
 import './capitalize-challenge.js';
+import './numbers.js';
