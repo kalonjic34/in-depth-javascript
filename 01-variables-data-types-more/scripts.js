@@ -143,3 +143,105 @@ function sayHello(){
 const output = sayHello;
 
 console.log(output, typeof output);
+
+//4. Type Conversion
+
+let amount = '99.5';
+
+// Change string to number
+// amount = parseFloat(amount)
+// amount = +amount
+// amount = Number(amount)
+
+// Change number to string
+// amount = amount.toString();
+// amount = String(amount)
+
+// Change string to decimal
+// amount = parseFloat(amount)
+
+// Convert number to boolean
+amount = Boolean(amount)
+
+console.log(amount, typeof amount);
+
+
+//5. Operators
+// 1. Arithmetic Operator
+
+let x;
+
+x = 5 + 5
+x = 5 - 5
+x = 5 * 5
+x = 5 / 5
+x = 5 % 5
+
+// Concatenation
+
+x = "Hello" + " world"
+
+console.log(x);
+
+// Exponent
+x = 2 ** 3;
+
+// Increment
+x = 1;
+x++
+
+// Decrement
+x = x - 1;
+x--
+
+// Assignment Operator
+
+x = 10
+
+x += 5;
+x -= 5;
+x *= 5;
+x /= 5;
+x **= 5;
+
+x = x + 1;
+
+console.log(x);
+
+// Comparsion Operator
+
+x = 2 == 1;
+x = 2 === 2;
+x = 2 != 2;
+x = 2 !== 2;
+
+
+x = 10 > 5;
+x = 10 < 5;
+x = 10 <= 5;
+x = 10 >= 5;
+
+console.log(x);
+
+
+//6.  Type Coercion
+
+
+let y;
+
+y = 5 + '5';
+
+y = 5 + Number('5');
+
+y = 5 * '5'
+
+y = Number(null)
+y = Number(false)
+
+y = 5 + true;
+y = 5 + false;
+y = 5 + undefined;
+
+console.log(y, typeof y);
+
+
