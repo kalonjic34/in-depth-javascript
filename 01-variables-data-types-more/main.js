@@ -7,3 +7,7 @@ import './typeCoercion.js';
 import './strings.js';
 import './capitalize-challenge.js';
 import './numbers.js';
+import './math-object.js';
+import './number-challenge.js';
+import './date-times.js';
+import './date-objects-methods.js';
