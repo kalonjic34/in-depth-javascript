@@ -16,5 +16,5 @@ if (true) {
         const y = 200
         console.log(x + y);
     }
-    console.log(y);
+    // console.log(y);
 }
