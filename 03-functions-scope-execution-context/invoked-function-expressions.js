@@ -5,10 +5,10 @@
     hello()
 })()
 
-(function(name){
-    console.log('Hello '+name);
-})('Sam')
+// (function(name){
+//     console.log('Hello '+name);
+// })('Sam')
 
-(function hello(){
-    console.log('Hello');
-})()
+// (function hello(){
+//     console.log('Hello');
+// })()
