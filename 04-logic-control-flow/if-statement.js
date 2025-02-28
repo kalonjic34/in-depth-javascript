@@ -18,9 +18,8 @@ if (x === y) {
 } else{
     console.log(`${x} is NOT equal to ${y}`);
 }
-
+const z = 20
 if (x!== y) {
-    const z = 20
     console.log(`${z} is 20`);
 }
 
